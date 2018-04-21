@@ -12,6 +12,10 @@ public class Salesman {
 	 * this is a method that returns saleman's name.
 	 * @return name(String)
 	 */
+	Salesman(String name, double sales){
+		this.name = name;
+		this.sales = sales;
+	}
 	public String getName() {
 		return name;
 	}
@@ -23,7 +27,7 @@ public class Salesman {
 		this.name = name;
 	}
 	/**
-	 * this is a method that returns saleman's sales.
+	 * 	this is a method that returns saleman's sales.
 	 * @return sales(integer)
 	 */
 	public double getSales() {
